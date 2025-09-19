@@ -4,7 +4,8 @@ repo_url: https://github.com/riozulfandy/test
 edit_uri: edit/master/docs/
 
 plugins:
-  - techdocs-core
+  - techdocs-core:
+      disable_monorepo: true
 
 nav:
   - Getting Started: index.md
