@@ -1,12 +1,10 @@
 site_name: docs-components2
 site_description: An informative description
 repo_url: https://github.com/riozulfandy/test
-edit_uri: edit/master/docs
+edit_uri: edit/master/docs/
+
 plugins:
   - techdocs-core
-  - monorepo:
-      docs_dir: docs
-      aliases:
-        docs-components2: docs
+
 nav:
   - Getting Started: index.md
